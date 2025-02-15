@@ -59,3 +59,16 @@ export const CustomColor: Story = {
         fontColor: { control: 'color'}
     }
 }
+
+export const CustomBackgroundColor: Story = {
+    args: {
+        label: 'Custom Background Color label',
+        allcaps: false,
+        fontColor: 'white',
+        size: 'h1',
+        backgroundColor: 'black'
+    },
+    argTypes: {
+        fontColor: { control: 'color'}
+    }
+}
